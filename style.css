@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: solid 1px greenyellow;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-primary: #ff0000;
+}
