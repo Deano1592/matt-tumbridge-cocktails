@@ -10,5 +10,27 @@ html {
 }
 
 :root {
-  --color-primary: #ff0000;
+  --primary-color: #;
+  --dark-orange: #d2691e;
+  --light-orange: #ff7f50;
+}
+
+/* HEADER / NAVBAR */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.2rem 10%;
+  background: var(--dark-orange);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+header img {
+  height: 100%;
+  width: auto;
 }
